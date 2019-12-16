@@ -10,7 +10,7 @@ const Mediacard = props => {
 
         const appHeader = (
             <header className="header">
-              <div className="image"></div>
+              <div className={"image "+ props.imgno}></div>
               <div className="author">
                  <h2>{props.name}</h2>
                  <p className="date">{props.date}</p>

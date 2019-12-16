@@ -33,9 +33,20 @@
   height: 80px;
   border-radius: 50%;
   background-color: red;
-  background-image: url('../images/imagen.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.img1{
+  background-image: url('../images/imagen.jpg');
+}
+
+.img2{
+  background-image: url('../images/image2.jpg');
+}
+
+.img3{
+  background-image: url('../images/image3.jpg');
 }
 
 .article-footer{
